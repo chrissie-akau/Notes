@@ -35,4 +35,10 @@ Second great key concept is:
     - React is designed around the idea of reusable components.  Small components put together to make them into larger components.  You have components containing other components.  All of these components can be used in different locations and projects.
         - Material UI/ ReactStrap -> all use the idea of reusable components.  You can just copy and paste these components and use them in a project.
     - Components -> are just JS functions that we write.  We have the State of our App.  Components are created based on this data simply as functions.  Components are functions that receive some sort of input or attributes which we call props, in return it returns JSX.  Can be built as function or a Class.  Based on the state and these components, we have an entire component for our page, like a NavBar or Profile Section.
+    - Component Architecture is key to allow us to share and reuse components.  Example, Date Picker, look up Date Picker Component.
+
+One Way Data Flow
+Third great key concept is:
+3) Unidirectional Data Flow
+    - React is just a JS library that allows us to write more JS to 
 
