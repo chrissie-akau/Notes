@@ -40,5 +40,32 @@ Second great key concept is:
 One Way Data Flow
 Third great key concept is:
 3) Unidirectional Data Flow
-    - React is just a JS library that allows us to write more JS to 
+    - React is just a JS library that allows us to write more JS to have interactivity on our websites.
+        - State = JS object that describes our App.  All our data in our app is in this state
+        - Components = create components using JSX (html syntax inside JS)
+        - State and components combine to make a function.  It will create a VirtualDOM
+    - Creates a JS version of the DOM -> tree-like object that gives the app a blueprint of how it should update the actual DOM
+    - React takes the state and components and looks at the blueprint and modifies the DOM for us.  Any time we want something to change, the state needs to change.
+        - Ex. Click button -> React will say, someone clicked this button, how would we change this state?  We will change isLoggedIn: False.  Combine the new state and components we have and update the DOM.
+    - One Way Data Flow -> Data can never move up, it will trickle down.  This restriction restricts how data can move through the app.  Makes it easier to debug code and know how your app works.
+
+UI Library
+4) I'm just the UI, the rest is up to you
+    - AngularJS gave you the kitchen, with all the tools that you can customize what you need.  React gives you the choice to choose what you want, they give you the oven, but not all the tools.
+    - React Everywhere -> you can learn once and use everywhere.  React doesn't make assumptions about tech stack you use.  Gives you an idea of components/state, a blue print a massive JS object that can make changes to the DOM.  Able to move React to other places like ReactNative, and React 360.  Can build a lot of cross-platform apps thanks to React.
+    - Import React DOM library and React Library.
+
+How to be a Great React Developer
+    - Made making applications a lot easier to make.
+        - Angular re-did their format to look similar. 
+        - Vue also uses the same as well.
+    - React Keywords:
+        - Declarative
+        - State
+        - Props
+        - VirtualDOM
+        - Components
+        - JSX
+
+
 
