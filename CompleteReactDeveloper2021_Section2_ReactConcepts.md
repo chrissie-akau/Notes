@@ -60,12 +60,20 @@ How to be a Great React Developer
         - Angular re-did their format to look similar. 
         - Vue also uses the same as well.
     - React Keywords:
-        - Declarative
+        - Declarative -> instead of telling our Apps what to do, we give it a state, components, props etc to make a giant JS object, which creates a Virtual DOM which is used by the React library to update the DOM for us.
         - State
         - Props
         - VirtualDOM
         - Components
         - JSX
+        -
+    - Job of a React Developer
+        - Decide on Components
+            - What is a component, how much do we need to break them down?
+        - Decide State and where it lives
+            - Can be placed in various places
+        - What changes when state changes
+            - What part re-renders, etc.
 
 
 
