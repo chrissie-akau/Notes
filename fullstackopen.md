@@ -18,7 +18,7 @@ Fundamentals of Web Apps
             - Dynamic -> form the HTML documents according to the application code using, for example, data from a database.  Example app is dynamic because it contains information on the number of created notes.
             - The browser is dumb -> only fetches HTML data from the server, and all application Logic is on the server.  
 
-        Server -> essentially what is running the back end.  It can be created using Ruby on Rails, Java Spring, Python Flask etc. 
+        Server -> essentially what is running the back end.  It can be created using Ruby on Rails, Java Spring, Python Flask, Node.js, and Express. 
         
         HTML Code for homepage:
             const getFrontPageHtml = (noteCount) => {
