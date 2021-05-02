@@ -45,3 +45,6 @@ Fundamentals of Web Apps
             })
         
          - This has been saved as a template string, or a string which allows for evaluating, for example, variables in the midst of it.  This example, not the best example of code with HTML right in the middle (PHP Programmers had to do this), but the dynamically changing part of the homepages is the number of saved notes which is noteCount and it is replaced by the current number of notes, notes.length in the template string.
+
+    Running Application Logic On The Browser
+        - JSON -> (JavaScript Object Notation) "raw data" is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute-value pairs and arrays.  It is a very common data format with a diverse range of applications.  
