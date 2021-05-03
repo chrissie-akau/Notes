@@ -48,3 +48,24 @@ Fundamentals of Web Apps
 
     Running Application Logic On The Browser
         - JSON -> (JavaScript Object Notation) "raw data" is an open standard file format and data interchange format that uses human-readable text to store and transmit data objects consisting of attribute-value pairs and arrays.  It is a very common data format with a diverse range of applications.  
+
+        JavaScript code of the notes page above downloads the JSON-data containing the notes, and forms a bullet-point list the note contents by the following code:
+        const data = JSON.parse(this.responseText)
+            console.log(data)
+
+            var ul = document.createElement('ul')
+            ul.setAttribute('class', 'notes')
+
+            data.forEach(function(note) {
+            var li = document.createElement('li')
+
+            ul.appendChild(li)
+            li.appendChild(document.createTextNode(note.content))
+            })
+
+            document.getElementById('notes').appendChild(ul)
+        
+        Code first creates an unordered list with a ul-tag and adds one li tag for each note.  Only the content field of each note becomes the contents of li-tag.  The timestamps found in the raw data are not used for anything here.
+    
+    Event Handlers and Callback Functions
+    
