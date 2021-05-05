@@ -5,7 +5,7 @@ What's a Module?
     A module covers a single learning topic.  You can mix and  match modules freely.  A module is also broken down into units.  Each unit covers a subtopic within a module and has either a hands-on challenge or quiz.
 
 What's a Project?
-    A project is a series of hands-on steps that lets you learn Salesforce skill by putting them into practice right awa.
+    A project is a series of hands-on steps that lets you learn Salesforce skill by putting them into practice right away.
 
 What's a Credential?
     There are two types of credential: superbadges and Salesforce certifications.
