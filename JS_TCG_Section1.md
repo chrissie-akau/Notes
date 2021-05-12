@@ -26,3 +26,7 @@ Browser-Side Environment
 - Google's JavaScript Engine (V8) was extracted to run JavaScript anywhere called Node.js
 - Node.js can be executed on any machine and can be used to build web backends (server-side JavaScript)
 - Node.js CAN access the local filesystem, interact with the operating system.  It can't manipulate HTML or CSS
+
+JavaScript and Java
+- Totally independent programming languages with different syntax and principles
+    - Java doesn't run on browser
