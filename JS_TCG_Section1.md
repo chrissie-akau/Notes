@@ -29,4 +29,31 @@ Browser-Side Environment
 
 JavaScript and Java
 - Totally independent programming languages with different syntax and principles
-    - Java doesn't run on browser
+    - Java is object-oriented, strongly typed
+    - JavaScript is flexible, weakly typed
+    - JavaScript named after Java to sound cool (at the time)
+    - Java doesn't run on the browser
+- Client-Side Browser
+    - Origin of JavaScript
+    - Different browser vendors provide their own JavaScript execution engines
+    - Allows interaction with web page and APIs
+- Server-Side (NodeJS)
+    - Allows for code and knowledge re-usage
+    - Extracted V8 engine to run JavaScript anywhere
+    - Special non-browser APIs
+- Syntax, concept, core features are the exactly the same (client-side and server side)
+
+A Brief History of JavaScript
+- 1995 -> Netscaspe introduces "LiveScript"/"JavaScript"
+- 1996 -> Microsoft releases its own version for Explorer.
+- Late 1996 -> JavaScript submiited to ECMA (European Computer Manufacturers Association) to start standardization.
+- 1997-2005 -> Standardization efforts, Microsoft didn't join and support standardization.
+- 2006-2011 -> Microsoft finally on board, huge progress in ecosystem
+    - Enormous progress in 2010 and 2011, became more unified. One core language we can use in different browsers.
+- 2015-2016 -> brand new version of JavaScript (syntax etc.)
+- ECMAScript -> JavaScript
+    - ECMAScript evolved from the standards organization
+    - JavaScript is the most famous ECMAScript implementation 
+    - ECMAScript isn't directly used but browsers implement the standard into their JS engines
+    - Each browser comes with its own JavaScript engine that also defines which features are actually supported.
+    - Both are always under active development
