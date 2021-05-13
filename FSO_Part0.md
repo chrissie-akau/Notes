@@ -101,5 +101,22 @@ Document Object Model or DOM
 
 CSS
 - Cascading Style Sheet (CSS) is a markup language used to determine the appearance of web pages.
+    - Can manipulate from the Element in the Console.
 
-    
+Forms and HTTP Post
+- Sends data to the server and results in a change on th server.
+    - Difference between PUT and POST
+        - PUT is idempotent, calling it once or several times successively has the same effect (no side effect), where successive identical POST requests may have additional effects, like passing an order several times.
+- HTTP Status Code 302 is a URL redirect -> where the server asks the browser to do a new HTTP GET request to the address defined in the header's Location, in this case, the address notes.  The browser reloads the Notes page and causes three more HTTP requests: fetching the style sheet, the JavaScript code, and the raw data of the notes (the json).
+
+AJAX
+- AJAX (Asynchronous JavaScript and XML) enabled the fetching of content to web pages using JavaScript included within the HTML, without the need to rerender the page.
+
+Single Page App
+- Single-page Application (SPA) -> do not fetch all of their pages separately from the server, but instead have one HTML page fetched from the server, and the contents are manipulated with JavaScript that executes in the browser.
+
+JavaScript Libraries
+- JavaScript libraries -> contain tools that are easier to work with compared to the DOM-API and using vanilla JavaScript.
+- Library Examples:
+    - jquery -> developed back when web applications were more traditional, generating several HTML pages instead of SPAs.  It had cross-browser compatibility. 
+    - Angular, React, VueJS -> more modern ways of web development following the SAP way.
