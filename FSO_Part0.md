@@ -120,3 +120,15 @@ JavaScript Libraries
 - Library Examples:
     - jquery -> developed back when web applications were more traditional, generating several HTML pages instead of SPAs.  It had cross-browser compatibility. 
     - Angular, React, VueJS -> more modern ways of web development following the SAP way.
+
+Exercises
+- HTML -> a markup language that defines the structure of your content. It consists of a series of elements that you enclose or wrap to make it appear or act a certain way.
+- CSS -> cascading style sheet.  Made up of a ruleset:
+    ex.
+    p {
+        color: red;
+    }
+    - Selector -> p in this case, defines the element to be styled.
+    - Declaration -> color: red in this case, specifies which of the element's properties you want to style.
+    - Properties -> color in this case, which property you want to affect in the rule.
+    - Property Value -> red in this example, anything to the right of the property.
