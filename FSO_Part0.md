@@ -65,5 +65,41 @@ Running Application Logic On The Browser
         Code first creates an unordered list with a ul-tag and adds one li tag for each note.  Only the content field of each note becomes the contents of li-tag.  The timestamps found in the raw data are not used for anything here.
 
 Event Handlers and Callback Functions
--  
+    xhttp.onreadystatechange = function () {
+        if(this.readyState == 4 && this.status == 200) {
+        }
+    }
+-  When the state of the object changes, the browser calls the event handler function.  The function checks that the readyState equals 4 and the HTTP status code of the response is 200.
+-  Event handler functions are called callback functions.  The code doesn't invoke the functions itself, but the runtime environment - the browser, invokes the function at an appropriate time, when the event has occurred.
+
+Document Object Model or DOM
+- HTML elements look like a tree:
+    <html>
+        <body>
+            <div class="container">
+                <h1>Notes</h1>
+            </div>
+            <div id="notes">
+                <ul class="notes">
+                    <li>HTML is easy </li>
+                    <li>Browser can execute only JavaScript</li>
+                    <li>Most important methods of HTTP-protocol are GET and Post</li>
+                </ul>
+            </div>
+        </body>
+    </html>
+- The Document Object Model or DOM is an Application Programming Interface (API), which enables programmatic modification of the element trees corresponding to web-pages.  
+- JavaScript code creates a new node to the variable ul and adds some child nodes to it:
+    var ul = document.createElement('ul')
+    data.forEach(function(note){
+        var li = document.createElement('li')
+        ul.appendChild(li)
+        li.appendChild(document.createTextNode(node.content))
+    })
+    - The tree branch of the ul variable is connected to its proper place in the HTML tree of the whole page:
+        document.getElementById('notes').appendChild(ul)
+
+CSS
+- Cascading Style Sheet (CSS) is a markup language used to determine the appearance of web pages.
+
     
